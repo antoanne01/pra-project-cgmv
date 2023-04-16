@@ -82,5 +82,14 @@ namespace CGMV
             obrisiKolegij.BringToFront();
             this.Close();
         }
+
+        private void btnUrediPredavaca_Click(object sender, EventArgs e)
+        {
+            UrediPredavaca urediPredavaca = new();
+            urediPredavaca.Show();
+            urediPredavaca.BringToFront();
+
+            this.Close();
+        }
     }
 }
